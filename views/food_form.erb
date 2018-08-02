@@ -2,12 +2,30 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Favorite Food</title>
+    <title>Favorites</title>
   </head>
 
   <body>
-    <h1>Favorite Food</h1>
+    <h1>Favorites</h1>
     <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSwGoDVUDPLd8f_397Fp9BrLKlu-6msu0sSiT0LeEZQ8Ga2228z">
+    
+<form method="POST" action="/food">
+  <p>What is your name? <input type="text" name = "username"></p>
+  <p>What is your favorite food? <input type="text" name = "food"></p>
+  <p>Which season do you like the best? <input type="text" name="season"></p>
+  <p>What dessert do you crave when you're tired? <input type="text" name = "dessert"></p>
+  <p>Are you an indoor type of person or and outdoor type of person? <input type="text" name = "indoor_outdoor"></p>
+  
+  
+  <p><input type="radio" name="ethnicity" value="caucasian">  caucasian </p>
+  <p><input type="radio" name="ethnicity" value="asian"> asian</p>
+  <p><input type="radio" name="ethnicity" value="african"> african  </p>
+  <p><input type="radio" name="ethnicity" value="latino"> latino </p>
+  <p><input type="radio" name="ethnicity" value="european"> european </p>
+  
+  <input type = "submit" value="click here!">
+  
+</form>
 
     <!-- Insert Your Form Below -->
 
